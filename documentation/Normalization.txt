@@ -1,0 +1,11 @@
+Food Management System Normalization
+
+1NF: All attributes are atomic. Repeating groups removed using
+Order_Item.
+
+2NF: Partial dependency removed. Food details moved to Food_Item table.
+
+3NF: Transitive dependency removed. Category separated into its own
+table.
+
+Result: Database is fully normalized and efficient.
